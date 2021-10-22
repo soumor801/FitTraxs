@@ -3,7 +3,7 @@
 
 # Decription
 
-FitTraxs is a fitness tracking web-app that allows you keep track of the workouts you've completed. Keeping track of type of workouts, number of reps, and number of sets completed. Providing clients with an all in one web application to create, update and delete their TraxLogs. View recommended workouts with relevant links and resources to facilitate clients achieve fitness expectations. Calendar feature allows clients to have a visual of the week-to-week completion of workouts. Mark off days completed, view the number of days left and track your progress. 
+FitTraxs is a fitness tracking web-app that allows you keep track of the workouts you've completed. Keeping track of different type of workouts, number of reps, and number of sets completed. Providing clients with an all in one web application to create, update and delete their TraxLogs. View recommended workouts with relevant links and resources to help facilitate clients in achieving fitness expectations. The Calendar feature allows clients to have a visual of the week-to-week progress. Mark off days completed, view the number of days left and track your progress. 
 
 #Wireframes & Component Hierarchy
 
@@ -83,6 +83,35 @@ Wednesday
 Thursday
 - Review APP
 - PMVP
+
+
+#Timeframes 
+
+- Friday's schedule has a 12 hour time frame. 
+- Saturday has a 6 hour time frame. 
+- Sunday has a 3 hour time frame. 
+- Monday, Tuesday, Wednesday and Thursday have a 10 hour time frame.
+
+#SWOT Analysis
+
+Strengths: 
+- Focused 
+- Organized
+- Creative
+
+
+Weakness:
+- Speed
+- Stay Efficient
+
+Opportunties:
+- Instructors support
+- Peer Support
+- Class resource
+
+Threats:
+- Time
+- Distractions
 
 
 
