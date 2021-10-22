@@ -102,7 +102,7 @@ Strengths:
 
 Weakness:
 - Speed
-- Stay Efficient
+- Staying Efficient
 
 Opportunties:
 - Instructors support
