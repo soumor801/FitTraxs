@@ -14,7 +14,7 @@ const handlePostRequest = async (ev) => {
     records: [
       {
         fields: {
-          'Workout Name': nameOfWorkout,
+          'WorkoutName': nameOfWorkout,
           'reps': numsOfReps,
           'sets': numsOfSets
         }
