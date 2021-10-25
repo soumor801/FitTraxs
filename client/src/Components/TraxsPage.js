@@ -5,7 +5,7 @@ const API_URL = 'https://api.airtable.com/v0/appApuXEvhttewhoa/Table%201?api_key
 
 function TraxsPage() {
   const [workoutData, setWorkoutData] = useState([]);
-  const [toggleFetch, setToggleFetch] = useState(true);
+  const [toggleFetch, setToggleFetch] = useState(false);
   const params = useParams;
   useEffect(() => {
    
@@ -19,15 +19,15 @@ function TraxsPage() {
 
     getWorkoutData();
     console.log(workoutData)
-  }, []);
+  }, [toggleFetch]);
   ;
   // const workoutId = workoutData.records.id
   // console.log(workoutId)
   // console.log(workout_id)
-  const deleteWorkout = async (ev) => {
-    ev.preventDefault();
+  const deleteWorkout = async (id) => {
     
-    const resp = await axios.delete(API_URL + `&records[]=${workoutData.id}`);
+    
+    const resp = await axios.delete(API_URL + `&records[]=${id}`);
     setToggleFetch(!toggleFetch)
   }
 
@@ -40,7 +40,7 @@ function TraxsPage() {
           <h2> {eachWorkout.fields.WorkoutName}</h2>
           <h4> Reps:{eachWorkout.fields.reps}</h4>
           <h4>Sets:{eachWorkout.fields.sets}</h4>
-          <button type='submit' onClick={deleteWorkout}>Remove Workout</button>
+          <button type='submit' onClick={(id) => { deleteWorkout(eachWorkout.id) }}>Remove Workout</button>
         </div>
       ))}
     </div>
