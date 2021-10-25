@@ -47,7 +47,10 @@ function App() {
           </div >
           <h1 className='fitTrax'>Welcome to FitTraxs</h1>
           <h2 className='fitTrax'>Get real results for real life </h2>
-          <img className='gymShot' src='https://i.imgur.com/SjRuftJ.jpg'/>
+          <hr />
+          <div className='gymShotContainer'>
+            <img className='gymShot' src='https://i.imgur.com/SjRuftJ.jpg' />
+          </div>
           <section>
           
             <p className='sectionPara'>Our fresh take on fitness is designed to get and keep you motivated for real results you can count on with FitTraxs on your side.</p>
@@ -85,7 +88,7 @@ function App() {
       </div>
 
       <footer>
-        <Link to="/Resources">
+        <Link to="/Resources" style={{ textDecoration: 'none' , color: '#191919'}}>
           {" "}
           <h3>Resources</h3>
         </Link>

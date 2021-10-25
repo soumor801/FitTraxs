@@ -10,9 +10,10 @@ nav {
 }
 footer {
   background-color: #e87b5dee;
+  font-family: Open Sans;
   display: flex;
   justify-content: center;
-  position: absolute;
+  position: fixed;
   left: 0;
   bottom: 0;
   right: 0;
@@ -34,7 +35,8 @@ footer {
 .logo {
   height: 160px;
 }
-.gymShot {
+.gymShot,
+.gymShotContainer {
   height: 325px;
   display: flex;
   justify-content: center;
@@ -44,9 +46,11 @@ footer {
 section {
   display: flex;
   flex-direction: column;
+  align-content: center;
   margin: 0 400px;
 }
 .sectionPara {
   display: flex;
   flex-direction: column;
+  font-family: Open Sans;
 }
