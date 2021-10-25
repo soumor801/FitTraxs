@@ -45,14 +45,17 @@ function App() {
           <div>
             <BootstrapCarouselDemo />
           </div >
+          <h1 className='fitTrax'>Welcome to FitTraxs</h1>
+          <h2 className='fitTrax'>Get real results for real life </h2>
+          <img className='gymShot' src='https://i.imgur.com/SjRuftJ.jpg'/>
           <section>
-            <h1 className='fitTrax'>Welcome to FitTraxs</h1>
-            <h2>Get real results for real life </h2>
-            <p>Our fresh take on fitness is designed to get and keep you motivated for real results you can count on with FitTraxs on your side.</p>
-            <p>Track your workouts. View your workouts and progress with real results. </p>
+          
+            <p className='sectionPara'>Our fresh take on fitness is designed to get and keep you motivated for real results you can count on with FitTraxs on your side.</p>
+            <p className='sectionPara'>Track your workouts. View your workouts and progress with real results. </p>
+
             
-            <img className='gymShot' src='https://i.imgur.com/SjRuftJ.jpg'/>
           </section>
+          
         </div>
       </Route>
       <div>

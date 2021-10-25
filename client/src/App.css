@@ -36,4 +36,17 @@ footer {
 }
 .gymShot {
   height: 325px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  margin: 0 400px;
+}
+.sectionPara {
+  display: flex;
+  flex-direction: column;
 }
