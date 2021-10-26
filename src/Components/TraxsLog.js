@@ -1,7 +1,7 @@
 import axios from "axios";
 import { useEffect, useState } from "react";
-// import Traxslog from "./CSS-Files/TraxsPage.css"
-
+// import CSS from "./Components/CSS-Files/TraxsLog.css"
+import CSS from "./CSS-Files/TraxsLog.css"
 const API_URL =
   "https://api.airtable.com/v0/appApuXEvhttewhoa/Table%201?api_key=keyzjTZF2QiihjSEs";
 
@@ -40,8 +40,8 @@ function TraxsLog() {
 
   return (
     <div>
-      <h1>TraxsLogs</h1>
-      <form onSubmit={handlePostRequest}>
+      <h1 className='traxsHeader'>TraxsLogs</h1>
+      <form onSubmit={handlePostRequest} className='traxsForm' >
         {/* <label htmlFor="Name of WorkOut">Name of WorkOut: </label>
         <input
           type="text"
@@ -68,22 +68,21 @@ function TraxsLog() {
         <input type="submit" /> */}
 
 
-        <label class="sr-only" htmlFor="Name of WorkOut">
-          Name of WorkOut:
+        <label className="sr-only" htmlFor="Name of WorkOut">
         </label>
         <input
           type="text"
-          class="form-control mb-2 mr-sm-2"
+          className="form-control mb-2 mr-sm-2"
           id="Name of WorkOut"
           placeholder="Workout"
           onChange={(ev) => setNameOfWorkOut(ev.target.value)}
         />
 
-        <div class="input-group mb-2 mr-sm-2">
+        <div className="input-group mb-2 mr-sm-2">
           <label htmlFor="Number of Reps"> </label>
           <input
             type="number"
-            class="form-control"
+            className="form-control"
             id="Number of Reps"
             placeholder="Reps"
             onChange={(ev) => setNumsOfReps(ev.target.value)}
@@ -93,14 +92,14 @@ function TraxsLog() {
           <label htmlFor="Number of Sets"></label>
           <input
             type="number"
-            class="form-control"
+            className="form-control"
             id="Number of Sets"
             placeholder="Sets"
             onChange={(ev) => setNumsOfSets(ev.target.value)}
           />
         </div>
 
-        <button type="submit" class="btn btn-primary mb-2">
+        <button type="submit" className="btnPrimary">
           Submit
         </button>
       </form>

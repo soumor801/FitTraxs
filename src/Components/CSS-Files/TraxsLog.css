@@ -1,0 +1,16 @@
+.traxsHeader {
+  display: flex;
+  justify-content: center;
+  font-family: Open Sans;
+}
+.traxsForm {
+  display: flex;
+  justify-content: center;
+  margin: 0 350px;
+}
+.btnPrimary {
+  background-color: #e87b5dee;
+  border-radius: 20px;
+  size: 10px;
+  background-size: 10px;
+}
