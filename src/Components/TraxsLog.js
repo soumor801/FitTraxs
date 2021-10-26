@@ -103,6 +103,16 @@ function TraxsLog() {
           Submit
         </button>
       </form>
+      
+      <section>
+        <h1 className="traxsHeader ">How to use FitTraxs Logs:</h1>
+        <ul>
+          <li>Enter your completed workout.</li>
+          <li>Enter the number of Reps completed.</li>
+          <li>Enter the number of Sets completed.</li>
+          <li>Click on Submit and check TraxsPage to view your workout!</li>
+        </ul>
+      </section>
     </div>
   );
 }

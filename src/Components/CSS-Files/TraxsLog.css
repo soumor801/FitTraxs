@@ -2,15 +2,22 @@
   display: flex;
   justify-content: center;
   font-family: Open Sans;
+  padding: 20px;
 }
 .traxsForm {
   display: flex;
   justify-content: center;
   margin: 0 350px;
+  padding: 20px;
 }
 .btnPrimary {
   background-color: #e87b5dee;
   border-radius: 20px;
   size: 10px;
   background-size: 10px;
+}
+li {
+  display: flex;
+  justify-content: center;
+  padding: 15px;
 }

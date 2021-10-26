@@ -34,14 +34,18 @@ function TraxsPage() {
 
   return (
     <div>
-      <h1>TraxsPage</h1>      
+      <h1 className="traxsHeader " >TraxsPage</h1>
+      <hr />
       {workoutData.map((eachWorkout) => (
         <div key={eachWorkout.id}>
+          <section>
+          <h2 className="traxsHeader "> {eachWorkout.fields.WorkoutName}</h2>
+          <h4 className="traxsHeader "r> Reps:{eachWorkout.fields.reps}</h4>
+          <h4 className="traxsHeader ">Sets:{eachWorkout.fields.sets}</h4>
+          <button type='submit' className="btnPrimary " onClick={(id) => { deleteWorkout(eachWorkout.id) }}>Remove Workout</button>
+          </section>
+          <hr />
           
-          <h2> {eachWorkout.fields.WorkoutName}</h2>
-          <h4> Reps:{eachWorkout.fields.reps}</h4>
-          <h4>Sets:{eachWorkout.fields.sets}</h4>
-          <button type='submit' onClick={(id) => { deleteWorkout(eachWorkout.id) }}>Remove Workout</button>
         </div>
       ))}
      
