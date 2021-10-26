@@ -21,3 +21,9 @@ li {
   justify-content: center;
   padding: 15px;
 }
+.videos {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 15px;
+}
