@@ -7,7 +7,7 @@ import TraxsPage from "./Components/TraxsPage";
 import Resources from "./Components/Resource";
 import AboutUs from "./Components/AboutUs";
 import Routines from "./Components/Routines";
-import CSS from "./App.css";
+import CSS from "./CSS-Files/App.css";
 import BootstrapCarouselDemo from "./Components/Carousel";
 
 function App() {

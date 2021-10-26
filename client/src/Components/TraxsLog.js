@@ -1,5 +1,6 @@
 import axios from "axios";
-import { useState } from "react";
+import { useEffect, useState } from "react";
+import Traxslog from "./CSS-Files/TraxsPage.css"
 
 const API_URL =
   "https://api.airtable.com/v0/appApuXEvhttewhoa/Table%201?api_key=keyzjTZF2QiihjSEs";
@@ -8,6 +9,12 @@ function TraxsLog() {
   const [nameOfWorkout, setNameOfWorkOut] = useState("");
   const [numsOfReps, setNumsOfReps] = useState("");
   const [numsOfSets, setNumsOfSets] = useState("");
+  const [toggleFetch, setToggleFetch] = useState(false);
+
+  useEffect(() => {
+    
+},[toggleFetch])
+
 
   const handlePostRequest = async (ev) => {
     ev.preventDefault();
@@ -22,8 +29,13 @@ function TraxsLog() {
         },
       ],
     };
-
+    
+    
     await axios.post(API_URL, newWorkOut);
+    setNameOfWorkOut('')
+    setNumsOfReps('')
+    setNumsOfSets('')
+    setToggleFetch(!toggleFetch)
   };
 
   return (

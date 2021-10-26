@@ -1,5 +1,6 @@
 import axios from "axios";
 import { useEffect, useState, useParams } from "react";
+import TraxsLog from "./TraxsLog";
 
 const API_URL = 'https://api.airtable.com/v0/appApuXEvhttewhoa/Table%201?api_key=keyzjTZF2QiihjSEs'
 
@@ -43,6 +44,7 @@ function TraxsPage() {
           <button type='submit' onClick={(id) => { deleteWorkout(eachWorkout.id) }}>Remove Workout</button>
         </div>
       ))}
+     
     </div>
   )
 }
