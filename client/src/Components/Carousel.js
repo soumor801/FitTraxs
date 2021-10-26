@@ -14,9 +14,9 @@ export class BootstrapCarouselDemo extends Component {
 
         <div className="container-fluid">
           <Carousel interval={2000} keyboard={false} pauseOnHover={true}>
-            <Carousel.Item style={{ height: "300px" }}>
+            <Carousel.Item style={{ height: "500px" }}>
               <img
-                style={{ height: "300px", width: "900px" }}
+                style={{ height: "500px", width: "900px" }}
                 className="d-block w-100"
                 //  {require('https://imgur.com/axnpZse')}
                 src="https://i.imgur.com/axnpZse.jpg"
@@ -28,9 +28,9 @@ export class BootstrapCarouselDemo extends Component {
               </Carousel.Caption>
             </Carousel.Item>
 
-            <Carousel.Item style={{ height: "300px" }}>
+            <Carousel.Item style={{ height: "500px" }}>
               <img
-                style={{ height: "300px" }}
+                style={{ height: "500px" }}
                 className="d-block w-100"
                 src={"https://i.imgur.com/m9Bcchm.jpg"}
                 alt=""
@@ -41,9 +41,9 @@ export class BootstrapCarouselDemo extends Component {
               </Carousel.Caption>
             </Carousel.Item>
 
-            <Carousel.Item style={{ height: "300px" }}>
+            <Carousel.Item style={{ height: "500px" }}>
               <img
-                style={{ height: "300px" }}
+                style={{ height: "500px" }}
                 className="d-block w-100"
                 src={"https://i.imgur.com/LU6OJ6I.jpg"}
                 alt=""

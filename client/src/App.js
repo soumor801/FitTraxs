@@ -21,7 +21,7 @@ function App() {
               <img className='logo' src='https://i.imgur.com/mQe9wAD.png'/>
             </Link>
 
-            <Link to="/TraxsLog" style={{ textDecoration: 'none' , color: '#191919'}}>
+            <Link to="/TraxsLog" style={{ textDecoration: 'none' , color: '#191919'}} classname='links'>
               {" "}
               <h3>TraxsLog</h3>
             </Link>

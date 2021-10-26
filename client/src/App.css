@@ -31,7 +31,9 @@ footer {
 .fitTrax {
   display: flex;
   justify-content: center;
+  font-family: Open Sans;
 }
+
 .logo {
   height: 160px;
 }
@@ -53,4 +55,7 @@ section {
   display: flex;
   flex-direction: column;
   font-family: Open Sans;
+}
+Link:hover {
+  background-color: rgb(255, 255, 80);
 }
