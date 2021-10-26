@@ -1,6 +1,6 @@
 import axios from "axios";
 import { useEffect, useState } from "react";
-import Traxslog from "./CSS-Files/TraxsPage.css"
+// import Traxslog from "./CSS-Files/TraxsPage.css"
 
 const API_URL =
   "https://api.airtable.com/v0/appApuXEvhttewhoa/Table%201?api_key=keyzjTZF2QiihjSEs";
