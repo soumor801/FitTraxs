@@ -1,129 +1,70 @@
-# FitTraxs
+# Getting Started with Create React App
 
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-# Decription
+## Available Scripts
 
-FitTraxs is a fitness tracking web-app that allows you keep track of the workouts you've completed. Keeping track of different type of workouts, number of reps, and number of sets completed. Providing clients with an all in one web application to create, update and delete their TraxLogs. View recommended workouts with relevant links and resources to help facilitate clients in achieving fitness expectations. The Calendar feature allows clients to have a visual of the week-to-week progress. Mark off days completed, view the number of days left and track your progress. 
+In the project directory, you can run:
 
-#Wireframes & Component Hierarchy
+### `npm start`
 
-https://whimsical.com/fittraxs-FQM1DFECjJZrVqCGYiG7ks@VsSo8s35WwJFGNqQffvgjH
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-# API Snippet
-    records[
-        {
-            "id": "recVN9fYPpVxYv36y",
-            "fields": {
-                "Workout Name": " Arnold Press",
-                "reps": "8-12",
-                "sets": "4"
-            },
-            "createdTime": "2021-10-22T16:07:22.000Z"
-        },
+The page will reload if you make edits.\
+You will also see any lint errors in the console.
 
+### `npm test`
 
-# MVP  
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-- interactive React app, built using REACT. Utilize React Router, 
-  installed via NPM. Have at least 6 separate, rendered components. 
+### `npm run build`
 
-- Implement an organized and understandable React file structure. 
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-- Utilize functional components appropriately. 
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-- Use Axios to consume data from Airtable, and GET/render that data in your components. 
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-- Use Axios to POST/create new data on Airtable. 
+### `npm run eject`
 
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-# PMVP 
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-- Post MVP will be to utilize material UI/ circuit UI and implement interactive user experience. 
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-- Add animations and subtle details that enhance the user experience. 
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-- Add a calendar feature.
+## Learn More
 
-# Project Timeline
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-Friday
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-- App.js
-- TraxsLog.js 
-- AboutUs.js
+### Code Splitting
 
-Saturday
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-- Resources.js
-- TraxsPage.js
+### Analyzing the Bundle Size
 
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
+### Making a Progressive Web App
 
-Sunday
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-- TraxsLog, TraxsPage.js Cont.
+### Advanced Configuration
 
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-Monday
+### Deployment
 
-- Calendar.js
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-- Review app
+### `npm run build` fails to minify
 
-Tuesday
-
-- Finalize Functionalities 
--Begin CSS
-
-
-Wednesday
-
-- CSS Cont.
-
-Thursday
-- Review APP
-- PMVP
-
-
-#Timeframes 
-
-- Friday's schedule has a 12 hour time frame. 
-- Saturday has a 6 hour time frame. 
-- Sunday has a 3 hour time frame. 
-- Monday, Tuesday, Wednesday and Thursday have a 10 hour time frame.
-
-#SWOT Analysis
-
-Strengths: 
-- Focused 
-- Organized
-- Creative
-
-
-Weakness:
-- Speed
-- Staying Efficient
-
-Opportunties:
-- Instructors support
-- Peer Support
-- Class resource
-
-Threats:
-- Time
-- Distractions
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
