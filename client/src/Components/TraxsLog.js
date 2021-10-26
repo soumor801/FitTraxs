@@ -89,6 +89,7 @@ function TraxsLog() {
             onChange={(ev) => setNumsOfReps(ev.target.value)}
           />
 
+          
           <label htmlFor="Number of Sets"></label>
           <input
             type="number"
