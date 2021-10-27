@@ -54,7 +54,9 @@ function App() {
           
             <p className='sectionPara'>Our fresh take on fitness is designed to get and keep you motivated for real results you can count on with FitTraxs on your side.</p>
             <p className='sectionPara'>Track your workouts. View your workouts and progress with real results. </p>
-
+            <Link to='/TraxsLog' exact>
+            <p className='sectionPara'>Try our industry leading  fitness tracking system. </p>
+            </Link>
             
           </section>
           

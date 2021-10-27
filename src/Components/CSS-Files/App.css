@@ -11,8 +11,11 @@ nav {
   top: 0;
   right: 0;
 }
-a.links:hover {
+a:hover {
   background-color: salmon;
+}
+img.logo:hover {
+  background-color: none;
 }
 footer {
   background-color: rgba(227, 89, 51, 0.6);
@@ -43,8 +46,8 @@ footer {
   font-size: 40px;
 }
 
-.logo {
-  height: 160px;
+img.logo {
+  height: 130px;
 }
 .gymShot {
   height: 350px;
