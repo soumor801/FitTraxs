@@ -51,7 +51,7 @@ function App() {
           <div className='gymShotContainer'>
             <img className='gymShot' src='https://i.imgur.com/Ua35z1R.jpg' />
           </div>
-          <section>
+          <section className='homeContain'>
           
             <p className='sectionPara'>Our fresh take on fitness is designed to get and keep you motivated for real results you can count on with FitTraxs on your side.</p>
             <p className='sectionPara'>Track your workouts. View your workouts and progress with real results. </p>

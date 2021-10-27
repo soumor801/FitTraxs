@@ -37,7 +37,10 @@ footer {
 .fitTrax {
   display: flex;
   justify-content: center;
+  align-items: center;
   font-family: Open Sans;
+  padding: 15px;
+  font-size: 40px;
 }
 
 .logo {
@@ -87,6 +90,10 @@ section {
   flex-direction: column;
   font-family: Open Sans;
 }
+section.homeContain {
+  width: 300px;
+  padding: 20px;
+}
 @media (min-width: 375px) {
   .navContainer {
     width: 375px;
@@ -105,6 +112,7 @@ section {
   .gymShotContainer {
     margin: 0 auto;
     height: 250px;
+    width: 350px;
   }
   .gymShot {
     height: 220px;
