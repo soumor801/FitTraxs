@@ -105,6 +105,11 @@ section.homeContain {
   h3 {
     width: 50px;
     display: block;
+    font-size: 13px;
+  }
+  nav {
+    margin: 0 auto;
+    width: auto;
   }
   section {
     margin: 0 auto;
@@ -133,13 +138,12 @@ section.homeContain {
     margin: -30px 0 0 0;
   }
   nav.navContainer {
-    width: 770px;
+    width: auto;
     display: flex;
     justify-content: space-evenly;
   }
   h3 {
     font-size: 20px;
-    width: auto;
   }
 }
 
