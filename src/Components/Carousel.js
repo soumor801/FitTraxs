@@ -18,7 +18,7 @@ export class BootstrapCarouselDemo extends Component {
               <img
                 style={{ height: "600px" }}
                 className="d-block w-100"
-                src="https://i.imgur.com/axnpZse.jpg"
+                src="https://i.imgur.com/4Dn0Inz.jpg"
                 alt="running"
               />
 
@@ -31,7 +31,7 @@ export class BootstrapCarouselDemo extends Component {
               <img
                 style={{ height: "600px" }}
                 className="d-block w-100"
-                src={"https://i.imgur.com/4Dn0Inz.jpg"}
+                src={"https://i.imgur.com/axnpZse.jpg"}
                 alt=""
               />
 

@@ -4,6 +4,7 @@ function Routines() {
   return (
     <div>
       <h1 className='traxsHeader'>Routines</h1>
+      <hr/>
       <YoutubeVideo
       
       />
