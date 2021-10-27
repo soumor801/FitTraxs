@@ -6,7 +6,13 @@ nav {
   margin: 0 auto;
   flex-direction: row;
   height: 100px;
-  color: black;
+  color: white;
+  left: 0;
+  top: 0;
+  right: 0;
+}
+a:hover {
+  background-color: salmon;
 }
 footer {
   background-color: rgba(227, 89, 51, 0.6);
@@ -81,6 +87,48 @@ section {
   flex-direction: column;
   font-family: Open Sans;
 }
-Link:hover {
-  background-color: rgb(255, 255, 80);
+@media (min-width: 375px) {
+  .navContainer {
+    width: 375px;
+  }
+  .logo {
+    height: 100px;
+  }
+  h3 {
+    width: 50px;
+    display: block;
+  }
+  section {
+    margin: 0 auto;
+  }
+  .gymShotContainer {
+    margin: 0 auto;
+    height: 250px;
+  }
+  .gymShot {
+    height: 220px;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  section {
+    margin: 0 auto;
+  }
+  nav {
+    margin: 0 auto;
+    width: auto;
+  }
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+}
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+}
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
 }

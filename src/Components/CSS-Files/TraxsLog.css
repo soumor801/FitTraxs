@@ -27,3 +27,66 @@ li {
   flex-direction: column;
   padding: 15px;
 }
+@media (min-width: 375px), (max-width: 400px) {
+  .traxsForm .btnPrimary {
+    margin: 0 auto;
+    width: 375px;
+  }
+  .traxsHeader {
+    margin: 0 auto;
+    width: 375px;
+  }
+  ul {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+  }
+  div.traxsSection {
+    margin: 0 auto;
+  }
+  div.cont {
+    height: 450px;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  ul {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+  }
+  div.traxsSection {
+    margin: 0 auto;
+  }
+  div.cont {
+    height: 450px;
+  }
+  .traxsForm .btnPrimary {
+    margin: 0 auto;
+    width: 600px;
+  }
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  ul {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+  }
+  div.traxsSection {
+    margin: 0 auto;
+  }
+  div.cont {
+    height: 450px;
+  }
+}
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+}
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+}

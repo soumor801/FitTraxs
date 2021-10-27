@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Carousel } from "react-bootstrap";
-// import images from "/Assets/pexels-maksim-goncharenok-4348633.jpg";
 
+import CSS from "./CSS-Files/TraxsLog.css"
 export class BootstrapCarouselDemo extends Component {
   render() {
     return (

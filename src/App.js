@@ -23,19 +23,19 @@ function App() {
 
             <Link to="/TraxsLog" style={{ textDecoration: 'none' , color: '#191919'}} classname='links'>
               {" "}
-              <h3>TraxsLog</h3>
+              <h3 classname='links'>TraxsLog</h3>
             </Link>
             <Link to="/TraxsPage" style={{ textDecoration: 'none', color: '#191919' }}>
               {" "}
-              <h3>TraxsPage</h3>
+              <h3 classname='links'>TraxsPage</h3>
             </Link>
             <Link to="/Routines"style={{ textDecoration: 'none' , color: '#191919'}}>
               {" "}
-              <h3>Routines</h3>
+              <h3 classname='links'>Routines</h3>
             </Link>
             <Link to="/Calendar" style={{ textDecoration: 'none' , color: '#191919'}}>
               {" "}
-              <h3>Calendar</h3>
+              <h3 classname='links'>Calendar</h3>
             </Link>
           </nav>
         </div>
