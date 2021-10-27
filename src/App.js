@@ -89,10 +89,10 @@ function App() {
       </div>
 
       <footer>
-        <Link to="/Resources" style={{ textDecoration: 'none' , color: '#191919'}}>
+        <a href="https://github.com/soumor801?tab=repositories" style={{ textDecoration: 'none' , color: '#191919'}}>
           {" "}
-          <h3>Resources</h3>
-        </Link>
+          <h3>Elhadj Soumahoro ©</h3>
+        </a>
       </footer>
     </div>
   );
