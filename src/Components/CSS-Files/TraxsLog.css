@@ -7,7 +7,7 @@
 .traxsForm {
   display: flex;
   justify-content: center;
-  margin: 0 350px;
+  width: auto;
   padding: 20px;
 }
 .btnPrimary {
@@ -27,14 +27,36 @@ li {
   flex-direction: column;
   padding: 15px;
 }
-@media (min-width: 375px), (max-width: 400px) {
+
+@media (min-width: 375px) {
   .traxsForm .btnPrimary {
     margin: 0 auto;
-    width: 375px;
+    width: auto;
   }
   .traxsHeader {
     margin: 0 auto;
-    width: 375px;
+    width: auto;
+  }
+  ul {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+  }
+  div.traxsSection {
+    margin: 0 auto;
+  }
+  div.cont {
+    height: 450px;
+  }
+}
+@media (max-width: 700px) {
+  .traxsForm .btnPrimary {
+    margin: 0 auto;
+    width: auto;
+  }
+  .traxsHeader {
+    margin: 0 auto;
+    width: auto;
   }
   ul {
     display: flex;
@@ -58,13 +80,15 @@ li {
   }
   div.traxsSection {
     margin: 0 auto;
+    width: auto;
   }
   div.cont {
     height: 450px;
   }
-  .traxsForm .btnPrimary {
+  .traxsForm {
     margin: 0 auto;
-    width: 600px;
+    width: auto;
+    padding: 0 auto;
   }
 }
 
@@ -81,10 +105,27 @@ li {
   div.cont {
     height: 450px;
   }
+  .traxsForm {
+    margin: 0 auto;
+    width: 768px;
+    padding: 0 auto;
+  }
 }
 
 /* // X-Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
+  .traxsForm {
+    margin: 0 auto;
+    width: 768px;
+    padding: 0 auto;
+  }
+  div.traxsSection {
+    margin: 0 auto;
+  }
+  .traxsHeader {
+    margin: 0 auto;
+    width: auto;
+  }
 }
 
 /* // XX-Large devices (larger desktops, 1400px and up) */
