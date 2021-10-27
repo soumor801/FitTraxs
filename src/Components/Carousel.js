@@ -32,7 +32,7 @@ export class BootstrapCarouselDemo extends Component {
               <img
                 style={{ height: "500px" }}
                 className="d-block w-100"
-                src={"https://i.imgur.com/m9Bcchm.jpg"}
+                src={"https://i.imgur.com/EceGZct.jpg"}
                 alt=""
               />
 
@@ -45,7 +45,7 @@ export class BootstrapCarouselDemo extends Component {
               <img
                 style={{ height: "500px" }}
                 className="d-block w-100"
-                src={"https://i.imgur.com/LU6OJ6I.jpg"}
+                src={"https://i.imgur.com/cgjghAo.jpg"}
                 alt=""
               />
               <Carousel.Caption>

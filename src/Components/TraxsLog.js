@@ -1,5 +1,6 @@
 import axios from "axios";
 import { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 // import CSS from "./Components/CSS-Files/TraxsLog.css"
 import CSS from "./CSS-Files/TraxsLog.css"
 const API_URL =
@@ -110,7 +111,7 @@ function TraxsLog() {
           <li>Enter your completed workout.</li>
           <li>Enter the number of Reps completed.</li>
           <li>Enter the number of Sets completed.</li>
-          <li>Click on Submit and check TraxsPage to view your workout!</li>
+          <li>Click on Submit and check  <Link  to='/TraxsPage' exact > TraxsPage </Link>  to view your workout!</li>
         </ul>
       </section>
     </div>
