@@ -49,7 +49,7 @@ function App() {
           <h2 className='fitTrax'>Get real results for real life </h2>
           <hr />
           <div className='gymShotContainer'>
-            <img className='gymShot' src='https://i.imgur.com/SjRuftJ.jpg' />
+            <img className='gymShot' src='https://i.imgur.com/Ua35z1R.jpg' />
           </div>
           <section>
           

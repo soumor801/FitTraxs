@@ -105,7 +105,7 @@ function TraxsLog() {
         </button>
       </form>
       
-      <section>
+      <div className='traxsSection'>
         <h1 className="traxsHeader ">How to use FitTraxs Logs:</h1>
         <ul>
           <li>Enter your completed workout.</li>
@@ -113,7 +113,7 @@ function TraxsLog() {
           <li>Enter the number of Sets completed.</li>
           <li>Click on Submit and check  <Link  to='/TraxsPage' exact > TraxsPage </Link>  to view your workout!</li>
         </ul>
-      </section>
+      </div>
     </div>
   );
 }
