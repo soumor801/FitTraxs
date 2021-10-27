@@ -17,7 +17,6 @@ function App() {
         <div>
           <nav className="navContainer">
             <Link to="/">
-              {/* <h1 className="homeFitTrax">FitTrax</h1> */}
               <img className='logo' src='https://i.imgur.com/mQe9wAD.png'/>
             </Link>
 

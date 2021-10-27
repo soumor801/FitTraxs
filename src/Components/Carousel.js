@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Carousel } from "react-bootstrap";
 
-import CSS from "./CSS-Files/TraxsLog.css"
+import CSS from "./CSS-Files/TraxsLog.css";
 export class BootstrapCarouselDemo extends Component {
   render() {
     return (
@@ -14,11 +14,10 @@ export class BootstrapCarouselDemo extends Component {
 
         <div className="container-fluid">
           <Carousel interval={2000} keyboard={false} pauseOnHover={true}>
-            <Carousel.Item style={{ height: "600px"  }}>
+            <Carousel.Item style={{ height: "600px" }}>
               <img
-                style={{ height: "600px"}}
+                style={{ height: "600px" }}
                 className="d-block w-100"
-                //  {require('https://imgur.com/axnpZse')}
                 src="https://i.imgur.com/axnpZse.jpg"
                 alt="running"
               />
@@ -41,7 +40,7 @@ export class BootstrapCarouselDemo extends Component {
               </Carousel.Caption>
             </Carousel.Item>
 
-            <Carousel.Item style={{ height: "600px"  }}>
+            <Carousel.Item style={{ height: "600px" }}>
               <img
                 style={{ height: "600px" }}
                 className="d-block w-100"

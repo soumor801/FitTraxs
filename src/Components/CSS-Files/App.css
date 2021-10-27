@@ -11,7 +11,7 @@ nav {
   top: 0;
   right: 0;
 }
-a:hover {
+a.links:hover {
   background-color: salmon;
 }
 footer {
