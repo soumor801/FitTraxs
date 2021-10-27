@@ -96,14 +96,14 @@ section.homeContain {
 }
 @media (min-width: 375px) {
   .navContainer {
-    width: 375px;
+    width: auto;
     flex-wrap: wrap;
   }
   .logo {
     height: 100px;
   }
   h3 {
-    width: 50px;
+    width: auto;
     display: block;
     font-size: 13px;
   }
