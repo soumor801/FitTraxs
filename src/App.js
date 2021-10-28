@@ -96,8 +96,6 @@ function App() {
           <Calendar />
         </Route>
 
-        
-
         <Route path="/Routines" exact>
           <Routines />
         </Route>
@@ -108,7 +106,6 @@ function App() {
           href="https://github.com/soumor801?tab=repositories"
           style={{ textDecoration: "none", color: "#191919" }}
         >
-          
           <h3>Elhadj Soumahoro ©</h3>
         </a>
       </footer>
