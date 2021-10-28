@@ -1,4 +1,3 @@
-import { useState, useEffect } from "react";
 import { Route, Link } from "react-router-dom";
 import TraxsLog from "./Components/TraxsLog";
 import Calendar from "./Components/Calendar";
