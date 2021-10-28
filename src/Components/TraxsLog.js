@@ -1,7 +1,6 @@
 import axios from "axios";
 import { useState } from "react";
 import { Link } from "react-router-dom";
-// import CSS from "./Components/CSS-Files/TraxsLog.css"
 import CSS from "./CSS-Files/TraxsLog.css";
 const API_URL =
   "https://api.airtable.com/v0/appApuXEvhttewhoa/Table%201?api_key=keyzjTZF2QiihjSEs";
