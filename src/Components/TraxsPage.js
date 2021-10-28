@@ -12,7 +12,6 @@ function TraxsPage() {
   useEffect(() => {
     const getWorkoutData = async () => {
       const resp = await axios.get(API_URL);
-
       setWorkoutData(resp.data.records);
     };
     getWorkoutData();
