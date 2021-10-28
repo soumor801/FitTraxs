@@ -14,7 +14,6 @@ function YoutubeVideo() {
       <hr />
       <h3>Bigger arms in just 30 days !</h3>
       <ReactPlayer url="https://www.youtube.com/watch?v=lDVEglSUxPg" />
-
       <hr />
     </div>
   );
