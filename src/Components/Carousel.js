@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import { Carousel } from "react-bootstrap";
-
 import CSS from "./CSS-Files/TraxsLog.css";
 export class BootstrapCarouselDemo extends Component {
   render() {
