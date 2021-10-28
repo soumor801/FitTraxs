@@ -2,7 +2,6 @@ import { Route, Link } from "react-router-dom";
 import TraxsLog from "./Components/TraxsLog";
 import Calendar from "./Components/Calendar";
 import TraxsPage from "./Components/TraxsPage";
-import AboutUs from "./Components/AboutUs";
 import Routines from "./Components/Routines";
 import CSS from "./Components/CSS-Files/App.css";
 import BootstrapCarouselDemo from "./Components/Carousel";
@@ -87,9 +86,6 @@ function App() {
           <TraxsPage />
         </Route>
 
-        <Route path="/AboutUs" exact>
-          <AboutUs />
-        </Route>
 
         <Route path="/Calendar" exact>
           <Calendar />
