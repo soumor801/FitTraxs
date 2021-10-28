@@ -10,6 +10,8 @@ https://whimsical.com/fittraxs-FQM1DFECjJZrVqCGYiG7ks@VsSo8s35WwJFGNqQffvgjH
 
 # Depolyed Site
 
+https://eloquent-franklin-3e82c0.netlify.app
+
 # API Snippet
 
     records[
