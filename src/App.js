@@ -86,7 +86,6 @@ function App() {
           <TraxsPage />
         </Route>
 
-
         <Route path="/Calendar" exact>
           <Calendar />
         </Route>
