@@ -1,8 +1,8 @@
 import axios from "axios";
-import { useEffect, useState } from "react";
+import {  useState } from "react";
 import { Link } from "react-router-dom";
 // import CSS from "./Components/CSS-Files/TraxsLog.css"
-import CSS from "./CSS-Files/TraxsLog.css"
+import CSS from "./CSS-Files/TraxsLog.css";
 const API_URL =
   "https://api.airtable.com/v0/appApuXEvhttewhoa/Table%201?api_key=keyzjTZF2QiihjSEs";
 
@@ -11,11 +11,6 @@ function TraxsLog() {
   const [numsOfReps, setNumsOfReps] = useState("");
   const [numsOfSets, setNumsOfSets] = useState("");
   const [toggleFetch, setToggleFetch] = useState(false);
-
-  useEffect(() => {
-    
-},[toggleFetch])
-
 
   const handlePostRequest = async (ev) => {
     ev.preventDefault();
@@ -30,19 +25,18 @@ function TraxsLog() {
         },
       ],
     };
-    
-    
+
     await axios.post(API_URL, newWorkOut);
-    setNameOfWorkOut('')
-    setNumsOfReps('')
-    setNumsOfSets('')
-    setToggleFetch(!toggleFetch)
+    setNameOfWorkOut("");
+    setNumsOfReps("");
+    setNumsOfSets("");
+    setToggleFetch(!toggleFetch);
   };
 
   return (
     <div>
-      <h1 className='traxsHeader'>TraxsLogs</h1>
-      <form onSubmit={handlePostRequest} className='traxsForm' >
+      <h1 className="traxsHeader">TraxsLogs</h1>
+      <form onSubmit={handlePostRequest} className="traxsForm">
         {/* <label htmlFor="Name of WorkOut">Name of WorkOut: </label>
         <input
           type="text"
@@ -68,9 +62,7 @@ function TraxsLog() {
         />
         <input type="submit" /> */}
 
-
-        <label className="sr-only" htmlFor="Name of WorkOut">
-        </label>
+        <label className="sr-only" htmlFor="Name of WorkOut"></label>
         <input
           type="text"
           className="form-control mb-2 mr-sm-2"
@@ -89,7 +81,6 @@ function TraxsLog() {
             onChange={(ev) => setNumsOfReps(ev.target.value)}
           />
 
-          
           <label htmlFor="Number of Sets"></label>
           <input
             type="number"
@@ -104,14 +95,21 @@ function TraxsLog() {
           Submit
         </button>
       </form>
-      
-      <div className='traxsSection'>
+
+      <div className="traxsSection">
         <h1 className="traxsHeader ">How to use FitTraxs Logs:</h1>
         <ul>
           <li>Enter your completed workout.</li>
           <li>Enter the number of Reps completed.</li>
           <li>Enter the number of Sets completed.</li>
-          <li>Click on Submit and check  <Link  to='/TraxsPage' exact > TraxsPage </Link>  to view your workout!</li>
+          <li>
+            Click on Submit and check{" "}
+            <Link to="/TraxsPage" exact>
+              {" "}
+              TraxsPage{" "}
+            </Link>{" "}
+            to view your workout!
+          </li>
         </ul>
       </div>
     </div>
