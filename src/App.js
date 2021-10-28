@@ -1,10 +1,8 @@
 import { useState, useEffect } from "react";
 import { Route, Link } from "react-router-dom";
-import axios from "axios";
 import TraxsLog from "./Components/TraxsLog";
 import Calendar from "./Components/Calendar";
 import TraxsPage from "./Components/TraxsPage";
-import Resources from "./Components/Resource";
 import AboutUs from "./Components/AboutUs";
 import Routines from "./Components/Routines";
 import CSS from "./Components/CSS-Files/App.css";
@@ -98,9 +96,7 @@ function App() {
           <Calendar />
         </Route>
 
-        <Route path="/Resources" exact>
-          <Resources />
-        </Route>
+        
 
         <Route path="/Routines" exact>
           <Routines />
