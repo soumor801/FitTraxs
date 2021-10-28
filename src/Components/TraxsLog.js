@@ -1,5 +1,5 @@
 import axios from "axios";
-import {  useState } from "react";
+import { useState } from "react";
 import { Link } from "react-router-dom";
 // import CSS from "./Components/CSS-Files/TraxsLog.css"
 import CSS from "./CSS-Files/TraxsLog.css";
@@ -37,31 +37,6 @@ function TraxsLog() {
     <div>
       <h1 className="traxsHeader">TraxsLogs</h1>
       <form onSubmit={handlePostRequest} className="traxsForm">
-        {/* <label htmlFor="Name of WorkOut">Name of WorkOut: </label>
-        <input
-          type="text"
-          placeholder="Bench Press"
-          id="Name of WorkOut"
-          onChange={(ev) => setNameOfWorkOut(ev.target.value)}
-        />
-
-        <label htmlFor="Number of Reps">Number of Reps: </label>
-        <input
-          type="text"
-          placeholder="10 Reps"
-          id="Number of Reps"
-          onChange={(ev) => setNumsOfReps(ev.target.value)}
-        />
-
-        <label htmlFor="Number of Sets">Number of Sets: </label>
-        <input
-          type="text"
-          placeholder="3 Sets"
-          id="Number of Sets"
-          onChange={(ev) => setNumsOfSets(ev.target.value)}
-        />
-        <input type="submit" /> */}
-
         <label className="sr-only" htmlFor="Name of WorkOut"></label>
         <input
           type="text"
